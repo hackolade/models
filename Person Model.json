@@ -1,0 +1,135 @@
+{
+    "GUID": "803b8300-3d07-11e9-b42c-2d33ba002a3e",
+    "modelName": "Person Model",
+    "code": "personModel",
+    "lastModifTS": "2019-03-02T16:23:23.696Z",
+    "persistenceSchemaVersion": "2",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "3192f210-3d07-11e9-b42c-2d33ba002a3e",
+            "collectionName": "New Document",
+            "code": "newDocument",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "3b28b620-3d07-11e9-b42c-2d33ba002a3e",
+                    "name": "First Name",
+                    "code": "firstName",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {
+                        "namingConvention": "code"
+                    },
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "31942a90-3d07-11e9-b42c-2d33ba002a3e"
+            },
+            "isRestfulApi": false,
+            "mediaType": "",
+            "method": "",
+            "transaction": "",
+            "resources": "",
+            "endPoint": "",
+            "hackoladeMeta": {
+                "namingConvention": "code"
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "idToNameHashTable": {
+        "3192f210-3d07-11e9-b42c-2d33ba002a3e": "New Document",
+        "3b28b620-3d07-11e9-b42c-2d33ba002a3e": "First Name"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "30850481-3d07-11e9-b42c-2d33ba002a3e"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "30850482-3d07-11e9-b42c-2d33ba002a3e"
+    },
+    "dbVendor": "Plain JSON--no DB",
+    "appTarget": "JSON",
+    "creationTS": "2019-03-02T16:21:09.960Z",
+    "hackoladeMeta": {
+        "namingConvention": "code"
+    },
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "2.4.4"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "3192f210-3d07-11e9-b42c-2d33ba002a3e",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": []
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true
+        }
+    }
+}
