@@ -1,8 +1,8 @@
 {
-    "GUID": "803b8300-3d07-11e9-b42c-2d33ba002a3e",
+    "GUID": "b507bf40-3d07-11e9-b42c-2d33ba002a3e",
     "modelName": "Person Model",
     "code": "personModel",
-    "lastModifTS": "2019-03-02T16:23:23.696Z",
+    "lastModifTS": "2019-03-02T16:26:36.106Z",
     "persistenceSchemaVersion": "2",
     "description": "",
     "comments": "",
@@ -37,6 +37,36 @@
                     "GUID": "3b28b620-3d07-11e9-b42c-2d33ba002a3e",
                     "name": "First Name",
                     "code": "firstName",
+                    "description": "First name description",
+                    "comments": "Sat Mar 02 2019 17:25:14 GMT+0100 (Romance Standard Time):  Blabla blah",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {
+                        "namingConvention": "code"
+                    },
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "ee8b4200-3d07-11e9-b42c-2d33ba002a3e",
+                    "name": "Last Name",
+                    "code": "lastName",
                     "description": "",
                     "comments": "",
                     "dependencies": [],
@@ -72,7 +102,8 @@
     "users": [],
     "idToNameHashTable": {
         "3192f210-3d07-11e9-b42c-2d33ba002a3e": "New Document",
-        "3b28b620-3d07-11e9-b42c-2d33ba002a3e": "First Name"
+        "3b28b620-3d07-11e9-b42c-2d33ba002a3e": "First Name",
+        "ee8b4200-3d07-11e9-b42c-2d33ba002a3e": "Last Name"
     },
     "definitions": {
         "type": "definitions",
